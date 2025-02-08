@@ -10,6 +10,7 @@ class Solution {
             if(indexMap.containsKey(difference)){ 
                 solution[0] = i; 
                 solution[1] = indexMap.get(difference); 
+                return solution;
             } 
             indexMap.put(number, i); 
         } 
